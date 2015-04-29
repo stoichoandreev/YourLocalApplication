@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="YouLocalTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@drawable/img_login_background</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <!-- <item name="android:colorBackground">@color/white_opaque</item> -->
+        <!-- <item name="android:textColor">@android:color/white</item> -->
+        <item name="android:textViewStyle">@style/YouLocalTextViewStyle</item>
+        <item name="android:editTextBackground">@android:color/transparent</item>
+        <item name="android:actionBarStyle">@style/YouLocalTheme.ActionBarStyle</item>
+        <item name="android:actionMenuTextAppearance">@style/MyMenuTextAppearance</item>
+    </style>
+
+    <style name="MyMenuTextAppearance" parent="YouLocalTheme">
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!-- Style to use for ALL text views (including FontTextView) -->
+    <style name="YouLocalTextViewStyle" parent="@android:style/Widget.Holo.Light.TextView">
+        <item name="android:textAppearance">@style/YouLocalTextAppearance</item>
+    </style>
+
+    <!-- Text appearance to use for ALL text views (including FontTextView) -->
+    <style name="YouLocalTextAppearance" parent="@android:style/TextAppearance.Holo">
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="YouLocalTheme.ActionBarStyle" parent="android:Widget.ActionBar">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:titleTextStyle">@style/ActionBarTitleTextStyle</item>
+    </style>
+
+    <style name="ActionBarTitleTextStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/action_bar_text_size</item>
+    </style>
+    <style name="ActionBarMargin">
+        <item name="android:paddingTop">?android:actionBarSize</item>
+    </style>
+
+</resources>

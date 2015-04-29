@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="YouLocalCustomTextView">
+        <attr name="text_view_typeface" format="string" />
+    </declare-styleable>
+    <declare-styleable name="YouLocalCustomButton">
+        <attr name="button_typeface" format="string" />
+    </declare-styleable>
+    <declare-styleable name="YouLocalCustomEditText">
+        <attr name="edit_text_typeface" format="string" />
+    </declare-styleable>
+
+</resources>

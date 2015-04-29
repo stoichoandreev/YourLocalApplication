@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle" >
+            <stroke
+                android:width="1dp"
+                android:color="@color/you_local_green" />
+            <solid android:color="@color/you_local_green_pressed" />
+            <corners android:bottomRightRadius="@dimen/button_rounds"
+                     android:bottomLeftRadius="@dimen/button_rounds"
+                     android:topLeftRadius="@dimen/button_rounds"
+                     android:topRightRadius="@dimen/button_rounds"/>
+        </shape>
+    </item>
+</layer-list>

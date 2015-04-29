@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">YouLocalApp</string>
+    <string name="assets_fonts_folder">fonts/</string>
+    <string name="email_label">email</string>
+    <string name="password_label">password</string>
+    <string name="login_label">Login</string>
+    <string name="forgot_password_label">Forgot password?</string>
+    <string name="reset_label">Reset</string>
+    <string name="loading">Loading</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="welcome_text">Welcome in YouLocal Application</string>
+    <string name="back_to_login_label">Back to Login</string>
+    <string name="valid_email">Email must be valid</string>
+    <string name="symbol_minimum">Password 6 symbols minimum</string>
+</resources>
